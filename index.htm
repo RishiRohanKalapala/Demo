@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE AIML Department</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #0D0D0D;
+            color: #F1F1F1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            text-align: center;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #161616;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 20px;
+            color: #FFF;
+            margin-left: 20px; /* Shifts the logo slightly to the right */
+        }
+
+        nav {
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #A3A3A3;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FFF;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .cta-buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #FFF;
+            color: #161616;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .cta-buttons a:hover {
+            background-color: #161616;
+            color: #FFF;
+            border: 1px solid #FFF;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            letter-spacing: 20px; /* Added letter-spacing for more gap between letters */
+        }
+
+        .name {
+            font-size: 48px;
+        }
+
+        .subheading {
+            font-size: 24px;
+            margin-top: 10px;
+            letter-spacing: 2px; /* Slightly less spacing for the subheading */
+            color: #A3A3A3; /* Subtle color for the subheading */
+        }
+
+        .welcome-message {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #F1F1F1; /* Brighter color for the welcome message */
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .action-buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .action-buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #FFF;
+            color: #161616;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .action-buttons a:hover {
+            background-color: #161616;
+            color: #FFF;
+            border: 1px solid #FFF;
+        }
+
+        .footer {
+            width: 100%;
+            padding: 20px;
+            background-color: #161616;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer a {
+            color: #BFBFBF;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #FFF;
+        }
+
+        .footer img {
+            width: 30px; /* Ensures all icons are the same size */
+            height: 30px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 15px 20px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .footer {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">L  E  A  R  N  O  V  A</div>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#">Programs</a>
+        <a href="#">Research</a>
+        <a href="#">Events</a>
+        <a href="#">Faculty</a>
+        <a href="#">Students</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="cta-buttons">
+        <a href="#">GitHub</a>
+        <a href="#">G Forms</a>
+    </div>
+</header>
+
+<div id="about" class="content">
+    <div class="name">L  E  A  R  N  O  V  A</div>
+    <div class="subheading">Empowering Future Innovators in AI and Machine Learning <br> & <br> Welcome to the CSE AIML Department Webpage</div>
+    <div class="welcome-message"></div> <!-- New subheading -->
+    <div class="action-buttons">
+       
+    </div> <!-- Two round-edged buttons -->
+</div>
+
+<div class="footer">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670226.png" alt="X (Twitter)"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="WhatsApp"></a>
+</div>
+
+</body>
+</html>
